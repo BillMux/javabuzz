@@ -24,7 +24,7 @@ describe('fizzBuzz', function() {
     });
   });
 
-  describe('when played, says', function() {
+  describe('when played, returns', function() {
     it('"Fizz" when a number is divisible by 3', function() {
       expect(fizzbuzz.says(3)).toEqual('Fizz');
     });
